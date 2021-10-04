@@ -16,3 +16,4 @@ class HashtagsController < ApplicationController
 
   end
 end
+

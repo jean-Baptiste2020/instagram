@@ -40,3 +40,4 @@ class CommentsController < ApplicationController
     @picture = Picture.find(params[:picture_id])
   end
 end
+

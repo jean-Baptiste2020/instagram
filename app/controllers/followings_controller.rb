@@ -18,3 +18,4 @@ class FollowingsController < ApplicationController
   end
 
 end
+

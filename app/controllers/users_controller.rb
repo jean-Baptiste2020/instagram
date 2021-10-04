@@ -97,7 +97,4 @@ class UsersController < ApplicationController
     params.require(:user).permit(*args)
   end
 
-
-
-
 end

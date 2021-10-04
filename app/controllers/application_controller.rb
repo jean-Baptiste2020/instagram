@@ -85,12 +85,4 @@ class ApplicationController < ActionController::Base
     @hashtag = Hashtag.find_by(hashtag: hashtag)
   end
 
-  
-
-
-
-
-
-
-
 end
