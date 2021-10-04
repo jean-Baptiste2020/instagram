@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <title>Fauxgram</title>
+    <title>Instagram</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -25,7 +25,7 @@
         <%= link_to "Search", search_path, class: "nav"%>
       </div>
       <% end %>
-      <%= link_to "FAUXGRAM", users_index_path, :class =>
+      <%= link_to "Instagram", users_index_path, :class =>
       "logo" %>
       <div class="discover_button, nav" >
         <%=link_to "Discover Users", discover_path, class: "nav"%>
@@ -48,7 +48,7 @@
     width 100 vh (viewport height)
     content fit cover -->
 
-    <%= video_tag('snow_falling.mp4', class: "myVideo", loop: true, autoplay: true) %>
+    <%= video_tag('giphy.mp4', class: "myVideo", loop: true, autoplay: true) %>
 
     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/bBQNJ6IAbcE?showinfo=0loop=1&autoplay=1&iv_load_policy=3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="myVideo" ></iframe> -->
     <%= yield %>
