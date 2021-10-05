@@ -3,3 +3,4 @@ class Like < ApplicationRecord
   belongs_to :icon
   belongs_to :user
 end
+
